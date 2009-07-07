@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{google-blog-pinging-service}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["teejayvanslyke"]
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "google-blog-pinging-service.gemspec",
      "lib/google-blog-pinging-service.rb",
      "spec/google-blog-pinging-service_spec.rb",
      "spec/spec_helper.rb"
