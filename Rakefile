@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "google-blog-pinging-service"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Interface to the Google Blog Search Pinging Service API in Ruby}
     gem.email = "teejay.vanslyke@gmail.com"
     gem.homepage = "http://github.com/teejayvanslyke/google-blog-pinging-service"
     gem.authors = ["teejayvanslyke"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency('curb')
   end
 
 rescue LoadError
